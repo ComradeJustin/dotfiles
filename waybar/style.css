@@ -1,0 +1,137 @@
+* {
+  font-family: SFMono,noto-fonts-cjk, SymbolsNerdFontMono;
+  font-size: 13px;
+  min-height: 0;	
+}
+
+#waybar {
+  background: transparent;
+  color: #333333;
+  margin: 0px;
+  font-weight: 500;
+}
+#battery {
+  background-color: #CCCCCC;
+  padding: 0.3rem 0.7rem;
+  margin: 5px 0px; 
+  border-radius: 0;
+  box-shadow: none;
+  min-width: 0;
+  border: none;
+
+}
+#pulseaudio {
+  background-color: #CCCCCC;
+  padding: 0.3rem 0.7rem;
+  margin: 5px 0px; 
+  border-radius: 0;
+  box-shadow: none;
+  min-width: 0;
+  border: none;
+}
+
+
+#pulseaudio,
+#custom-archlogo,
+#battery,
+#network,
+#clock,
+#cpu,
+#memory,
+#workspaces,
+#idle_inhibitor,
+#
+
+#clock {
+  background-color: #CCCCCC;
+  padding: 0.3rem 0.7rem; 
+  margin: 5px 0px;
+  border-radius: 6px; /* This module is always rounded */
+  min-width: 0;
+
+}
+#clock {
+  color: #333333;
+  font-weight: 500;
+}
+#clock:hover {
+  background-color: #AAAAAA; /* Brighter highlight */
+}
+#pulseaudio:hover,
+
+
+#memory {
+  color: #333333;
+}
+#memory:hover,
+#cpu {
+  color: #333333;
+}
+
+#cpu:hover
+
+
+#pulseaudio {
+  color: #333333;
+}
+
+#battery:hover {
+  background-color: #AAAAAA;
+}
+
+#battery {
+  color: #333333;
+}
+#network:hover{
+  background-color: #AAAAAA;
+
+}
+#pulseaudio:hover{
+  background-color:#AAAAAA
+
+}
+#custom-archlogo:hover{
+  background-color:#AAAAAA
+}
+#idle_inhibitor:hover{
+  background-color:#AAAAAA
+}
+#cpu:hover{
+  background-color:#AAAAAA
+}
+#memory:hover{
+  background-color:#AAAAAA
+}
+
+
+#network {
+  color: #333333;
+}
+
+#network.disconnected {
+  color: #676767;
+}
+
+#workspaces button {
+  color: #333333;
+  border-radius: 5px; /* Workspaces buttons are always rounded */
+  padding: 0;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-right:3px;
+    margin-right: 3px;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  outline: none;
+}
+#workspaces button.active {
+  color: #333333;
+  background-color: #AAAAAA;
+  box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2);
+}
+
+
